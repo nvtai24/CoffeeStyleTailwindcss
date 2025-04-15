@@ -13,7 +13,7 @@
 
 .ct-nav-item {
   @apply cursor-pointer py-1 hover:text-gray-800 transition-all duration-300 ease-in-out relative 
-                        after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-light-coffee after:lg:h-0.5 after:lg:w-0 after:lg:hover:w-full 
+                        after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-coffee-200 after:lg:h-0.5 after:lg:w-0 after:lg:hover:w-full 
                         after:lg:transition-all after:lg:duration-300 after:lg:ease-in-out after:lg:rounded-full;
 }
 
@@ -27,4 +27,16 @@
 
 .ct-badge-circle {
   @apply rounded-full text-white text-center font-bold text-xs px-1;
+}
+
+.sub-headline {
+  @apply flex justify-center items-center mb-24 text-center;
+}
+
+.sub-headline-deco {
+  @apply w-8 h-px bg-coffee-200;
+}
+
+.sub-headline-title {
+  @apply uppercase mx-4 font-medium text-sm text-gray-500 tracking-wider;
 }
