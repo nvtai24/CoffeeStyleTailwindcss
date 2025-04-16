@@ -1,11 +1,16 @@
 /** @type {import('tailwindcss').Config} */
+
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
+    screens: {
+      xs: "480px",
+      md: "768px",
+      ...defaultTheme.screens,
+    },
     extend: {
-      screens: {
-        xs: "480px",
-      },
       colors: {
         coffee: {
           50: "#E8D6D0",

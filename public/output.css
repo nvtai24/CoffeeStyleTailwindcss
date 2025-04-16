@@ -580,6 +580,22 @@ video {
   top: 0.75rem;
 }
 
+.-left-\[100px\]{
+  left: -100px;
+}
+
+.-right-\[100px\]{
+  right: -100px;
+}
+
+.left-\[calc\(\)\]{
+  left: calc();
+}
+
+.left-\[calc\(-50vw\+50\%\)\]{
+  left: calc(-50vw + 50%);
+}
+
 .mx-16{
   margin-left: 4rem;
   margin-right: 4rem;
@@ -636,6 +652,26 @@ video {
   margin-top: 2rem;
 }
 
+.-ml-24{
+  margin-left: -6rem;
+}
+
+.-mr-24{
+  margin-right: -6rem;
+}
+
+.-mr-\[100px\]{
+  margin-right: -100px;
+}
+
+.ml-\[-100px\]{
+  margin-left: -100px;
+}
+
+.-ml-\[100px\]{
+  margin-left: -100px;
+}
+
 .flex{
   display: flex;
 }
@@ -655,10 +691,6 @@ video {
 
 .h-\[130px\]{
   height: 130px;
-}
-
-.h-\[220px\]{
-  height: 220px;
 }
 
 .h-\[280px\]{
@@ -681,6 +713,27 @@ video {
   height: 100%;
 }
 
+.h-\[340px\]{
+  height: 340px;
+}
+
+.h-fit{
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.h-\[1000px\]{
+  height: 1000px;
+}
+
+.h-\[500px\]{
+  height: 500px;
+}
+
+.h-\[50\%\]{
+  height: 50%;
+}
+
 .w-11\/12{
   width: 91.666667%;
 }
@@ -700,6 +753,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-\[100vw\]{
+  width: 100vw;
 }
 
 .max-w-screen-2xl{
@@ -767,16 +824,16 @@ video {
   justify-content: space-between;
 }
 
+.gap-4{
+  gap: 1rem;
+}
+
 .gap-5{
   gap: 1.25rem;
 }
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-4{
-  gap: 1rem;
 }
 
 .bg-gray-900{
@@ -796,6 +853,10 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-inherit{
+  background-color: inherit;
 }
 
 .bg-\[url\(\'\.\/img\/f1\.jpg\'\)\]{
@@ -834,8 +895,16 @@ video {
   background-image: url('./img/slider.jpg');
 }
 
+.bg-\[url\(\'\.\/img\/parallax\.jpg\'\)\]{
+  background-image: url('./img/parallax.jpg');
+}
+
 .bg-cover{
   background-size: cover;
+}
+
+.bg-fixed{
+  background-attachment: fixed;
 }
 
 .bg-center{
@@ -887,6 +956,10 @@ video {
 
 .pl-8{
   padding-left: 2rem;
+}
+
+.pl-0{
+  padding-left: 0px;
 }
 
 .text-center{
@@ -1244,10 +1317,6 @@ video {
 }
 
 @media (min-width: 640px){
-  .sm\:h-\[130px\]{
-    height: 130px;
-  }
-
   .sm\:h-\[540px\]{
     height: 540px;
   }
@@ -1304,6 +1373,10 @@ video {
   .md\:px-32{
     padding-left: 8rem;
     padding-right: 8rem;
+  }
+
+  .md\:pl-8{
+    padding-left: 2rem;
   }
 
   .md\:text-left{
