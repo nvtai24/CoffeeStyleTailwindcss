@@ -595,6 +595,11 @@ video {
   margin-right: auto;
 }
 
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mb-24{
   margin-bottom: 6rem;
 }
@@ -623,6 +628,10 @@ video {
   margin-top: 2rem;
 }
 
+.mb-16{
+  margin-bottom: 4rem;
+}
+
 .flex{
   display: flex;
 }
@@ -640,28 +649,20 @@ video {
   height: 1.5rem;
 }
 
-.h-\[530px\]{
-  height: 530px;
+.h-\[400px\]{
+  height: 400px;
 }
 
-.h-\[540px\]{
-  height: 540px;
+.h-\[530px\]{
+  height: 530px;
 }
 
 .h-full{
   height: 100%;
 }
 
-.h-\[400px\]{
-  height: 400px;
-}
-
-.h-\[300px\]{
-  height: 300px;
-}
-
-.h-\[440px\]{
-  height: 440px;
+.h-\[380px\]{
+  height: 380px;
 }
 
 .w-11\/12{
@@ -672,8 +673,8 @@ video {
   width: 100px;
 }
 
-.w-\[65\%\]{
-  width: 65%;
+.w-\[95\%\]{
+  width: 95%;
 }
 
 .w-fit{
@@ -683,10 +684,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-\[95\%\]{
-  width: 95%;
 }
 
 .max-w-screen-2xl{
@@ -712,10 +709,6 @@ video {
 
 .cursor-pointer{
   cursor: pointer;
-}
-
-.grid-cols-2{
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-cols-1{
@@ -746,10 +739,6 @@ video {
   justify-content: space-between;
 }
 
-.gap-4{
-  gap: 1rem;
-}
-
 .gap-8{
   gap: 2rem;
 }
@@ -778,6 +767,18 @@ video {
 
 .bg-\[url\(\'\.\/img\/slider\.jpg\'\)\]{
   background-image: url('./img/slider.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/f3\.jpg\'\)\]{
+  background-image: url('./img/f3.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/f4\.jpg\'\)\]{
+  background-image: url('./img/f4.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/f5\.jpg\'\)\]{
+  background-image: url('./img/f5.jpg');
 }
 
 .bg-cover{
@@ -1183,6 +1184,14 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:gap-4{
+    gap: 1rem;
+  }
+
   .md\:px-32{
     padding-left: 8rem;
     padding-right: 8rem;
@@ -1198,10 +1207,6 @@ video {
     display: none;
   }
 
-  .lg\:h-\[540px\]{
-    height: 540px;
-  }
-
   .lg\:w-\[65\%\]{
     width: 65%;
   }
@@ -1212,6 +1217,10 @@ video {
 
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:flex-row{
@@ -1226,12 +1235,12 @@ video {
     justify-content: flex-end;
   }
 
-  .lg\:gap-8{
-    gap: 2rem;
-  }
-
   .lg\:gap-4{
     gap: 1rem;
+  }
+
+  .lg\:gap-8{
+    gap: 2rem;
   }
 
   .lg\:px-64{
