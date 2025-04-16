@@ -572,28 +572,16 @@ video {
   left: 50%;
 }
 
+.left-\[calc\(-50vw\+50\%\)\]{
+  left: calc(-50vw + 50%);
+}
+
 .right-3{
   right: 0.75rem;
 }
 
 .top-3{
   top: 0.75rem;
-}
-
-.-left-\[100px\]{
-  left: -100px;
-}
-
-.-right-\[100px\]{
-  right: -100px;
-}
-
-.left-\[calc\(\)\]{
-  left: calc();
-}
-
-.left-\[calc\(-50vw\+50\%\)\]{
-  left: calc(-50vw + 50%);
 }
 
 .mx-16{
@@ -609,6 +597,11 @@ video {
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .my-8{
@@ -652,26 +645,6 @@ video {
   margin-top: 2rem;
 }
 
-.-ml-24{
-  margin-left: -6rem;
-}
-
-.-mr-24{
-  margin-right: -6rem;
-}
-
-.-mr-\[100px\]{
-  margin-right: -100px;
-}
-
-.ml-\[-100px\]{
-  margin-left: -100px;
-}
-
-.-ml-\[100px\]{
-  margin-left: -100px;
-}
-
 .flex{
   display: flex;
 }
@@ -697,6 +670,10 @@ video {
   height: 280px;
 }
 
+.h-\[300px\]{
+  height: 300px;
+}
+
 .h-\[380px\]{
   height: 380px;
 }
@@ -713,33 +690,16 @@ video {
   height: 100%;
 }
 
-.h-\[340px\]{
-  height: 340px;
-}
-
-.h-fit{
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.h-\[1000px\]{
-  height: 1000px;
-}
-
-.h-\[500px\]{
-  height: 500px;
-}
-
-.h-\[50\%\]{
-  height: 50%;
-}
-
 .w-11\/12{
   width: 91.666667%;
 }
 
 .w-\[100px\]{
   width: 100px;
+}
+
+.w-\[100vw\]{
+  width: 100vw;
 }
 
 .w-\[95\%\]{
@@ -753,10 +713,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-\[100vw\]{
-  width: 100vw;
 }
 
 .max-w-screen-2xl{
@@ -855,10 +811,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-inherit{
-  background-color: inherit;
-}
-
 .bg-\[url\(\'\.\/img\/f1\.jpg\'\)\]{
   background-image: url('./img/f1.jpg');
 }
@@ -879,6 +831,18 @@ video {
   background-image: url('./img/f5.jpg');
 }
 
+.bg-\[url\(\'\.\/img\/ls1\.jpg\'\)\]{
+  background-image: url('./img/ls1.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/ls2\.jpg\'\)\]{
+  background-image: url('./img/ls2.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/ls3\.jpg\'\)\]{
+  background-image: url('./img/ls3.jpg');
+}
+
 .bg-\[url\(\'\.\/img\/mg1\.jpg\'\)\]{
   background-image: url('./img/mg1.jpg');
 }
@@ -891,12 +855,12 @@ video {
   background-image: url('./img/mg3.jpg');
 }
 
-.bg-\[url\(\'\.\/img\/slider\.jpg\'\)\]{
-  background-image: url('./img/slider.jpg');
-}
-
 .bg-\[url\(\'\.\/img\/parallax\.jpg\'\)\]{
   background-image: url('./img/parallax.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/slider\.jpg\'\)\]{
+  background-image: url('./img/slider.jpg');
 }
 
 .bg-cover{
@@ -952,10 +916,6 @@ video {
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.pl-8{
-  padding-left: 2rem;
 }
 
 .pl-0{
@@ -1031,6 +991,10 @@ video {
 
 .tracking-wider{
   letter-spacing: 0.05em;
+}
+
+.tracking-widest{
+  letter-spacing: 0.1em;
 }
 
 .text-coffee-200{
