@@ -594,6 +594,11 @@ video {
   margin-right: 0.5rem;
 }
 
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -674,6 +679,10 @@ video {
   height: 300px;
 }
 
+.h-\[350px\]{
+  height: 350px;
+}
+
 .h-\[380px\]{
   height: 380px;
 }
@@ -690,8 +699,16 @@ video {
   height: 100%;
 }
 
+.h-px{
+  height: 1px;
+}
+
 .w-11\/12{
   width: 91.666667%;
+}
+
+.w-8{
+  width: 2rem;
 }
 
 .w-\[100px\]{
@@ -700,6 +717,10 @@ video {
 
 .w-\[100vw\]{
   width: 100vw;
+}
+
+.w-\[300px\]{
+  width: 300px;
 }
 
 .w-\[95\%\]{
@@ -715,8 +736,20 @@ video {
   width: 100%;
 }
 
+.max-w-\[50\%\]{
+  max-width: 50%;
+}
+
 .max-w-screen-2xl{
   max-width: 1536px;
+}
+
+.max-w-\[80\%\]{
+  max-width: 80%;
+}
+
+.max-w-\[75\%\]{
+  max-width: 75%;
 }
 
 .basis-1\/2{
@@ -780,6 +813,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-2{
+  gap: 0.5rem;
+}
+
 .gap-4{
   gap: 1rem;
 }
@@ -790,6 +827,25 @@ video {
 
 .gap-8{
   gap: 2rem;
+}
+
+.border{
+  border-width: 1px;
+}
+
+.border-gray-700{
+  --tw-border-opacity: 1;
+  border-color: rgb(55 65 81 / var(--tw-border-opacity, 1));
+}
+
+.bg-\[\#1d1f2e\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 31 46 / var(--tw-bg-opacity, 1));
+}
+
+.bg-coffee-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(200 159 148 / var(--tw-bg-opacity, 1));
 }
 
 .bg-gray-900{
@@ -806,9 +862,23 @@ video {
   background-color: rgb(22 163 74 / var(--tw-bg-opacity, 1));
 }
 
+.bg-inherit{
+  background-color: inherit;
+}
+
+.bg-slate-400{
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity, 1));
+}
+
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-gray-700{
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[url\(\'\.\/img\/f1\.jpg\'\)\]{
@@ -888,6 +958,11 @@ video {
   padding-right: 1rem;
 }
 
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .px-7{
   padding-left: 1.75rem;
   padding-right: 1.75rem;
@@ -935,6 +1010,11 @@ video {
   line-height: 2.25rem;
 }
 
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
@@ -963,6 +1043,10 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.font-bold{
+  font-weight: 700;
 }
 
 .font-medium{
@@ -1029,6 +1113,11 @@ video {
 
 .line-through{
   text-decoration-line: line-through;
+}
+
+.outline-none{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .transition-all{
@@ -1182,6 +1271,32 @@ video {
   --tw-bg-opacity: 0.9;
 }
 
+.placeholder\:text-sm::-moz-placeholder{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.placeholder\:text-sm::placeholder{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.placeholder\:font-bold::-moz-placeholder{
+  font-weight: 700;
+}
+
+.placeholder\:font-bold::placeholder{
+  font-weight: 700;
+}
+
+.placeholder\:tracking-wider::-moz-placeholder{
+  letter-spacing: 0.05em;
+}
+
+.placeholder\:tracking-wider::placeholder{
+  letter-spacing: 0.05em;
+}
+
 .after\:absolute::after{
   content: var(--tw-content);
   position: absolute;
@@ -1230,6 +1345,11 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.hover\:border-gray-500:hover{
+  --tw-border-opacity: 1;
+  border-color: rgb(107 114 128 / var(--tw-border-opacity, 1));
+}
+
 .hover\:bg-gray-900\/20:hover{
   background-color: rgb(17 24 39 / 0.2);
 }
@@ -1256,6 +1376,11 @@ video {
   background-color: rgb(200 159 148 / var(--tw-bg-opacity, 1));
 }
 
+.focus\:border-gray-500:focus{
+  --tw-border-opacity: 1;
+  border-color: rgb(107 114 128 / var(--tw-border-opacity, 1));
+}
+
 .group:hover .group-hover\:block{
   display: block;
 }
@@ -1278,6 +1403,11 @@ video {
   .xs\:h-\[200px\]{
     height: 200px;
   }
+
+  .xs\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 @media (min-width: 640px){
@@ -1293,6 +1423,11 @@ video {
   .sm\:px-8{
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .sm\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
@@ -1316,6 +1451,10 @@ video {
 
   .md\:h-\[130px\]{
     height: 130px;
+  }
+
+  .md\:max-w-full{
+    max-width: 100%;
   }
 
   .md\:grid-cols-2{
