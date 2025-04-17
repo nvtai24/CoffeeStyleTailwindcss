@@ -103,7 +103,7 @@
 
         <main>
           <div
-            class="slider h-[530px] bg-[url('./img/slider.jpg')] bg-cover bg-no-repeat bg-center"
+            class="slider h-[530px] bg-[url('./img/slider.jpg')] bg-cover bg-no-repeat bg-center mb-24"
           >
             <div
               class="w-full h-full flex justify-center items-center bg-gray-900/30"
@@ -123,8 +123,27 @@
             </div>
           </div>
 
-          <div class="story flex justify-center items-center">
-            <div class="sm:px-16 md:px-32 lg:px-64 xl:px-96 py-32 text-center">
+          <div class="sub-headline">
+            <div class="sub-headline-deco"></div>
+            <div class="sub-headline-title">highlight of the month</div>
+            <div class="sub-headline-deco"></div>
+          </div>
+
+          <div
+            class="story flex flex-col flex-col-reverse md:flex-row justify-center items-center w-[95%] xl:w-[65%] mx-auto mb-24 gap-8 lg:gap-4"
+          >
+            <div class="basis-1/2">
+              <iframe
+                width="560"
+                src="https://www.youtube.com/embed/jdguVU0F7fs?autoplay=1&loop=1&mute=1&playlist=jdguVU0F7fs"
+                frameborder="0"
+                allow="autoplay; encrypted-media"
+                class="rounded-lg w-full h-full object-cover min-h-[315px]"
+                allowfullscreen
+              ></iframe>
+            </div>
+
+            <div class="text-center lg:text-left basis-1/2">
               <div class="text-3xl mb-6 font-medium leading-10">
                 Lorem ipsum, dolor consectetur adsicing elit. Tempora unde
                 voluptas.
@@ -387,7 +406,7 @@
 
           <!-- w-[100vw] relative left-[calc(-50vw+50%)] -->
           <div
-            class="ct-parallax-section bg-[url('./img/parallax.jpg')] w-full h-[380px] bg-cover bg-no-repeat bg-center mb-24 bg-fixed"
+            class="ct-parallax-section bg-[url('./img/parallax.jpg')] h-[380px] md:h-[500px] bg-cover bg-no-repeat bg-center mb-24 bg-fixed relative w-[100vw] left-[calc(-50vw+50%)]"
           ></div>
 
           <div class="sub-headline">
